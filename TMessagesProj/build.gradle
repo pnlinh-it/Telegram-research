@@ -38,13 +38,13 @@ android {
 
     defaultConfig.applicationId = "org.telegram.messenger"
 
-    sourceSets.main.jniLibs.srcDirs = ['./jni/']
+    /*sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
     externalNativeBuild {
         ndkBuild {
             path "jni/Android.mk"
         }
-    }
+    }*/
 
     lintOptions {
         disable 'MissingTranslation'
